@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claro.Infra.Data", "Claro.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claro.Application", "Claro.Application\Claro.Application.csproj", "{09E35BDC-D607-4A8A-9F92-C85E797F2A70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{B75527A0-4868-4001-B497-4DAA11379D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claro.Tests", "Claro.Tests\Claro.Tests.csproj", "{3577A8E7-7246-412A-BE1F-79D41C6771D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{09E35BDC-D607-4A8A-9F92-C85E797F2A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09E35BDC-D607-4A8A-9F92-C85E797F2A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09E35BDC-D607-4A8A-9F92-C85E797F2A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3577A8E7-7246-412A-BE1F-79D41C6771D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3577A8E7-7246-412A-BE1F-79D41C6771D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3577A8E7-7246-412A-BE1F-79D41C6771D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3577A8E7-7246-412A-BE1F-79D41C6771D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +66,7 @@ Global
 		{1C332BC9-18A4-4C6D-B160-C313CAB5CD0C} = {277E9181-50D9-4B98-8108-3BFC271D07EC}
 		{70657195-D84B-4FD2-98D7-3A10A75699E1} = {90B3C248-BF62-4847-95BE-B711090BF33D}
 		{09E35BDC-D607-4A8A-9F92-C85E797F2A70} = {E25ED05F-B907-4BAD-8AAC-3634C90953EA}
+		{3577A8E7-7246-412A-BE1F-79D41C6771D6} = {B75527A0-4868-4001-B497-4DAA11379D2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0A43588-A571-44CD-9F6E-7D478DB2DA90}
